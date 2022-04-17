@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100&family=Barlow:wght@100;700&display=swap');
+
+
 body {
     color: white;
-    background-color: black;
+    background-color: rgba(10, 98, 104, 0.795);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,6 +13,10 @@ ul {
     list-style-type: none;
     align-items: center;
     padding: 16px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom:2px solid rgb(255, 255, 255);
 
 }
 
@@ -18,6 +25,7 @@ a {
     text-decoration: none;
 
 }
+
 
 header img {
     width: 150px;
@@ -28,11 +36,10 @@ header img {
 
 .center {
     text-align: center;
-}
-h1 {
-    color: rgb(61, 61, 219);
+    
     
 }
+
 
 footer img {
     width: 50px;
@@ -55,12 +62,16 @@ footer p {
 
 h1 {
     text-align: center;
-    color: rgb(204, 61, 61);
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 50px;
 }
 
 h2 {
     text-align: center;
-    color: rgb(204, 61, 61);
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 35px;
     
 }
 
@@ -69,6 +80,6 @@ h2 {
 }
 /* mudando cor quando passa o mouse */
 nav a:hover {
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
